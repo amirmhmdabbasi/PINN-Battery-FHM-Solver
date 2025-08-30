@@ -1,2 +1,7 @@
 # PINN-Battery-FHM-Solver
 This work presents a solver based on the Physics-Informed Neural Networks (PINNs) framework to solve the Fully Homogenized Macroscale (FHM) model of lithium-ion batteries. The model takes basic battery inputs, such as time, C-rate, and temperature, and computes key electrochemical outputs, including concentration profiles and potentials.
+Data is gathered using simulations of the Fully Homogenized Macroscale (FHM) model, first introduced by Arunachalam in "_A New Multiscale Modeling Framework for Lithium-Ion Battery Dynamics: Theory, Experiments, and Comparative Study with the Doyle-Fuller-Newman Model_". The model is implemented in COMSOL and run under various C-rates. The simulation outputs include solid and electrolyte phase concentrations, potentials, and intercalation current density.
+These outputs are used to generate battery discharge curves and state of charge (SOC) variation graphs during a discharge cycle, with reasonable accuracy. The PINN framework is built using PyTorch, enabling a physics-informed approach to model training and prediction.
+A full description of the proposed framework, battery parameters, physical model, and setup procedure for accurate estimation of discharge curves and SOC is available in our paper.
+
+_Real-Time Discharge Curve and State of Charge Estimation of Lithium-Ion Batteries via a Physics-Informed Full Homogenized Macroscale Model_ Journal of Energy Storage, AmirMohammad Abbasi, Ayat Gharehghani, Amin Andwari
