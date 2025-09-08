@@ -33,6 +33,7 @@ The PINN framework is built using **PyTorch**, enabling a physics-informed appro
 A complete description of the proposed framework—including battery parameters, physical model, and setup procedure for accurate estimation of discharge curves and SOC—is available in our paper:
 
 _Real-Time Discharge Curve and State of Charge Estimation of Lithium-Ion Batteries via a Physics-Informed Full Homogenized Macroscale Model_ - Journal of Energy Storage, AmirMohammad Abbasi, Ayat Gharehghani, Amin Andwari
+DOI: https://doi.org/10.1016/j.est.2025.118307
 
 ## 📂 Data Access
 
